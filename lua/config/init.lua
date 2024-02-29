@@ -26,14 +26,10 @@ local opts = {
 	},
 	rtp = {
 		disabled_plugins = {
-			"gzip",
 			"matchit",
 			"matchparen",
 			"netrwPlugin",
-			"tarPlugin",
-			"tohtml",
 			"tutor",
-			"zipPlugin",
 		}
 	},
 	change_detection = {
@@ -42,3 +38,5 @@ local opts = {
 }
 
 require("lazy").setup('plugins', opts)
+
+require('telescope').load_extension('fzf')
