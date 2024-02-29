@@ -15,7 +15,7 @@ local config = function()
 			"cpp",
 			"javascript",
 			"typescript",
-			"yaml",
+			--"yaml",
 			"toml",
 			"html",
 			"css",
